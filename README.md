@@ -10,3 +10,5 @@ It can be installed in your R console using
 ```
 install.packages("ggplot2")
 ```
+
+It also uses the package `mongolite`, as the csv was originally loaded on a MongoDB cluster, and the data is queried from there in R.
